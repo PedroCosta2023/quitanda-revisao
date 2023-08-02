@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quitanda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Quitanda</h1>
+
+    <div class="frutas">
+      <label for="User">Tomate</label>
+      <input type="number" id="quantidadeTomate">
+      <button onclick="calcular()">Calcular</button>
+
+      <label for="User">Macã</label>
+      <input type="number" id="quantidadeMaca">
+      <button onclick="calcular()">Calcular</button>
+    </div>
+
+    <div class="resultados">
+      <h2>Valor s/ desconto:</h2>
+      <h3 id="totalBruto">000</h3>
+
+      <h2>Valor c/ desconto:</h2>
+      <h3 id="totalLiquido">000</h3>
+
+    </div>
+
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
